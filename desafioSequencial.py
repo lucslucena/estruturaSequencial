@@ -53,3 +53,16 @@ celsius = (5 * (far-32) / 9)
 celsius = round(celsius, 2)
 print("A temperatura em Celsius é: ", celsius)
 
+#15
+salario = float(input("Qual o seu salario por hora? "))
+horas = int(input("Quantas horas trabalhadas no mês? "))
+salarioBruto = salario * horas
+iRenda = salario * 0.11
+inss = salario * 0.08
+sindicato = salario * 0.05
+salarioLiquido = salarioBruto - (iRenda + inss + sindicato)
+print("Seu imposto de renda é: R$ ", iRenda)
+print("Você pagou R$ ", inss, " de inss.")
+print("Você pagou R$ ", sindicato, " ao sindicato")
+print("Seu salário liquido é: ", salarioLiquido)
+
