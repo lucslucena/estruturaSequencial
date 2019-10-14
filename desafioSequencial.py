@@ -1,4 +1,3 @@
-"""
 #1
 print("Alo Mundo")
 
@@ -46,7 +45,7 @@ salarioTotal = salarioHora * qtdHoras
 #salarioTotal = round(salarioTotal, 2)
 #print("O seu salário total é: ", salarioTotal)
 print(f"O seu salário total é: {salarioTotal:.2f}")
-"""
+
 
 #9
 far = int(input("Qual a temperatura em Farenheit? "))
